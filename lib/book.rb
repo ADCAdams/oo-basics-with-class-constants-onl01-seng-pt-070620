@@ -14,12 +14,12 @@ class Book
     puts "Flipping the page...wow, you read fast!"
   end
   
-  def genre=(genre)
-    @genre = genre
-    #puts @genre 
+  def genre=(newGenre)
+    
+    @genre = newGenre
+
     GENRES << @genre
-    #binding.pry
-    #puts @genre
+
   end
 
 end
